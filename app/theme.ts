@@ -39,6 +39,9 @@ const theme = extendTheme({
         heading: "DM Sans, sans-serif",
         body: "DM Sans, sans-serif",
       },
+      "html, body": {
+        overflowX: "hidden",
+      },
     },
   },
 

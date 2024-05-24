@@ -24,6 +24,7 @@ const NavLink = ({ isActive, href, children }) => {
       borderBottom={isActive ? "2px" : "none"}
       borderColor="#FED530"
       href={href}
+      
     >
       {children}
     </Box>

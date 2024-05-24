@@ -1,7 +1,8 @@
 "use client";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import { Link } from "@chakra-ui/next-js";
+import Body from "@/components/Body";
+import Footer from "@/components/Footer";
 import { ChakraProvider, Box } from "@chakra-ui/react";
 import theme from "./theme";
 
@@ -13,9 +14,9 @@ export default function Home() {
         height="100vh"
       ><Navbar />
       <Hero /></Box>
-      <Link href="/about" color="blue.400" _hover={{ color: "blue.500" }}>
-        About
-      </Link>
+      <Body />
+      <Footer />
+
     </ChakraProvider>
   );
 }

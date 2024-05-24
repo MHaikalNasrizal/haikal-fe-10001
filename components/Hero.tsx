@@ -1,27 +1,42 @@
-import Head from 'next/head';
 import {
   Box,
   Container,
   Text,
-  Stack,
-  createIcon,
-} from '@chakra-ui/react';
+  Image,
+  HStack,
+  VStack,
 
+} from '@chakra-ui/react';
 export default function Hero() {
   return (
     <>
       <Container maxW={'3xl'}>
-        <Stack
+        <HStack
+          spacing={6}
           as={Box}
-          textAlign={'center'}
-          spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 36 }}>
-          <Text color={'White'}>
-            Monetize your content by charging your most loyal readers and reward
-            them loyalty points. Give back to your loyal readers by granting
-            them access to your pre-releases and sneak-peaks.
-          </Text>
-        </Stack>
+          height= {'260px'}
+          padding={'2px'}
+          marginBlock={'100px'}>
+
+          <Image src='PlayButton.png' alt='Play Button'/>
+          <VStack>
+            <Text 
+                color={'White'}
+                margin={'10px'}
+                padding={'10px'}
+                fontSize={'72px'}
+                width={'500px'}
+              >
+              Find your movies here!
+              </Text>
+            
+              <Text color={'White'}
+              padding={'10px'}
+              fontSize={'14px'} >
+                Explore our gallery full of exciting films from all around the globe only your yor entertainments. No hidden charges or disturbing ads.
+              </Text>
+          </VStack>
+        </HStack>
       </Container>
     </>
   );
