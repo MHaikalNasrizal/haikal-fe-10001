@@ -3,9 +3,10 @@ import { extendTheme } from "@chakra-ui/react";
 import "@fontsource/dm-sans";
 
 const theme = extendTheme({
-    
-  
   colors: {
+    brand:{
+      500: "#FED530", 
+    },
     primary: {
       darkGray: "#333333",
       gold: "#FFD700",
@@ -33,6 +34,7 @@ const theme = extendTheme({
       white: "#FFFFFF",
     },
   },
+
   styles: {
     global: {
       fonts: {

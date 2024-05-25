@@ -1,24 +1,191 @@
 import {
-  Box,
   Container,
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Grid,
+  GridItem,
   Text,
   Image,
-  HStack,
-  VStack,
-
-} from '@chakra-ui/react';
+  Stack,
+  Heading,
+  Divider,
+  ButtonGroup,
+  Button,
+} from "@chakra-ui/react";
 export default function Hero() {
   return (
     <>
       <Container
-      bgColor={'#1E1E1E'}
-      height={'100vh'}
-      w={'100%'}
-      maxW={'12xl'}
+        maxW="12xl"
+        minHeight={"100vh"}
+        bgColor="#1E1E1E"
+        color="#FFFFFF"
+        centerContent
       >
-        <Text>
-          Ok
-        </Text>
+        <Grid
+          templateColumns="repeat(3, 1fr)"
+          gap={5}
+          bgColor={"#1E1E1E"}
+          height={"100%"}
+          alignContent={"end"}
+          minHeight={"100vh"}
+          w={"1233px"}
+          maxW={"12xl"}
+          color={"#FFFFFF"}
+          mt={"130px"}
+          p={"30px"}
+        >
+          <GridItem colSpan={2}>
+            <Text fontSize={"48px"}>New Releases</Text>
+          </GridItem>
+          <GridItem alignSelf="end">
+            <Text color={"#FED530"} textAlign={"right"}>
+              View More
+            </Text>
+          </GridItem>
+          <GridItem colSpan={2}>
+            <Card h={"560px"} w={"817px"} bgGradient="linear(to top, #000000 -2.92%, rgba(0, 0, 0, 0) 370%)" color={"white"}>
+            <CardBody>
+                <Stack mt="1" spacing="3">
+                  <Button
+                    variant="solid"
+                    colorScheme="brand"
+                    color={"black"}
+                    h={6}
+                    w={"90px"}
+                  >
+                    Buy now
+                  </Button>
+                </Stack>
+              </CardBody>
+              <CardFooter>
+                <Stack>
+                  <Text>time</Text>
+                  <Text>View</Text>
+                  <Heading>Her & Him</Heading>
+                </Stack>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem>
+            <Card
+              h={"560px"}
+              w={"400px"}
+              bgGradient="linear(to top, #000000 -2.92%, rgba(0, 0, 0, 0) 370%)"
+              color={"white"}
+            >
+              <CardBody>
+                <Stack mt="1" spacing="3">
+                  <Button
+                    variant="solid"
+                    colorScheme="brand"
+                    color={"black"}
+                    h={6}
+                    w={"90px"}
+                  >
+                    Buy now
+                  </Button>
+                </Stack>
+              </CardBody>
+              <CardFooter>
+                <Stack>
+                  <Text>time</Text>
+                  <Text>View</Text>
+                  <Heading>Her & Him</Heading>
+                </Stack>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem>
+          <Card
+              h={"560px"}
+              w={"400px"}
+              bgGradient="linear(to top, #000000 -2.92%, rgba(0, 0, 0, 0) 370%)"
+              color={"white"}
+            >
+              <CardBody>
+                <Stack mt="1" spacing="3">
+                  <Button
+                    variant="solid"
+                    colorScheme="brand"
+                    color={"black"}
+                    h={6}
+                    w={"90px"}
+                  >
+                    Buy now
+                  </Button>
+                </Stack>
+              </CardBody>
+              <CardFooter>
+                <Stack>
+                  <Text>time</Text>
+                  <Text>View</Text>
+                  <Heading>Her & Him</Heading>
+                </Stack>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem>
+            <Card
+              h={"560px"}
+              w={"400px"}
+              bgGradient="linear(to top, #000000 -2.92%, rgba(0, 0, 0, 0) 370%)"
+              color={"white"}
+            >
+              <CardBody>
+                <Stack mt="1" spacing="3">
+                  <Button
+                    variant="solid"
+                    colorScheme="brand"
+                    color={"black"}
+                    h={6}
+                    w={"90px"}
+                  >
+                    Buy now
+                  </Button>
+                </Stack>
+              </CardBody>
+              <CardFooter>
+                <Stack>
+                  <Text>time</Text>
+                  <Text>View</Text>
+                  <Heading>Her & Him</Heading>
+                </Stack>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem>
+            <Card
+              h={"560px"}
+              w={"400px"}
+              bgGradient="linear(to top, #000000 -2.92%, rgba(0, 0, 0, 0) 370%)"
+              color={"white"}
+            >
+              <CardBody>
+                <Stack mt="1" spacing="3">
+                  <Button
+                    variant="solid"
+                    colorScheme="brand"
+                    color={"black"}
+                    h={6}
+                    w={"90px"}
+                  >
+                    Buy now
+                  </Button>
+                </Stack>
+              </CardBody>
+              <CardFooter>
+                <Stack>
+                  <Text>time</Text>
+                  <Text>View</Text>
+                  <Heading>Her & Him</Heading>
+                </Stack>
+              </CardFooter>
+            </Card>
+          </GridItem>
+        </Grid>
       </Container>
     </>
   );

@@ -15,7 +15,7 @@ import { EmailIcon } from "@chakra-ui/icons";
 export default function Hero() {
   return (
     <>
-      <Container as={Stack} maxW="12xl" p={0}>
+      <Container as={Stack} maxW="12xl" p={0} h={"100%"}>
         <Grid templateColumns={{ base: "1fr", md: "1fr 2fr" }} >
           <GridItem w='100%' >
             <Box bg="#3D3D3D" color="#E6E6E6" p={10} h="100%">
