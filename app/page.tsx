@@ -13,7 +13,8 @@ export default function Home() {
         bgGradient="linear(to left, #000000 -2.92%, rgba(0, 0, 0, 0) 1000%)"
         height="100vh"
       ><Navbar />
-      <Hero /></Box>
+      <Hero />
+      </Box>
       <Body />
       <Footer />
 
