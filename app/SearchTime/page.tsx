@@ -1,10 +1,10 @@
 "use client";
 import Navbar from "@/app/components/Navbar";
-import Hero from "@/app/components/Hero";
+import Hero from "@/app/SearchTime/components/Hero";
 import Body from "@/app/components/Body";
 import Footer from "@/app/components/Footer";
 import { ChakraProvider, Box } from "@chakra-ui/react";
-import theme from "./theme";
+import theme from "@/app/theme";
 
 export default function Home() {
   return (
