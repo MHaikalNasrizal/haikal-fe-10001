@@ -51,10 +51,10 @@ const Navbar = () => {
             <NavLink isActive={activePage === "Home"} href="/">
               Home
             </NavLink>
-            <NavLink isActive={activePage === "Movies"} href="/">
+            <NavLink isActive={activePage === "Movies"} href="/Search">
               Movies
             </NavLink>
-            <NavLink isActive={activePage === "TV Show"} href="/">
+            <NavLink isActive={activePage === "TV Show"} href="/SearchTime">
               TV Show
             </NavLink>
             <NavLink isActive={activePage === "Video"} href="/">

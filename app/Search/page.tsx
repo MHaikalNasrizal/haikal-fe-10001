@@ -3,6 +3,7 @@ import Navbar from "@/app/components/Navbar";
 import Hero from "@/app/Search/components/Hero";
 import Body from "@/app/components/Body";
 import Footer from "@/app/components/Footer";
+import Result from "@/app/components/Result";
 import { ChakraProvider, Box } from "@chakra-ui/react";
 import theme from "@/app/theme";
 
@@ -17,7 +18,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </Box>
-      <Body />
+      <Result />
       <Footer />
     </ChakraProvider>
   );
